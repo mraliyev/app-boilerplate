@@ -1,0 +1,14 @@
+{
+  "name": "food",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run start:be && npm run start:fe",
+    "start:be": "cd ~/dev/food/backend && npm run local",
+    "start:fe": "cd ~/dev/food/frontend && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
